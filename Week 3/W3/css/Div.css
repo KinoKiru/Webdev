@@ -1,0 +1,44 @@
+body{
+background-image: url("../html/Img/gray.png");
+    height: 100%;
+}
+#div1{
+height: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#div2{
+height: 300px;
+    width: 40%;
+    text-align: center;
+    margin: auto ;
+    font-size: 20px;
+}
+#div3{
+ margin: 25px auto auto auto;
+    text-align: center;
+    width: 80%;
+    height: 200px;
+    font-size: 40px;
+}
+#div4 {
+ text-align: center;
+    margin: 30px auto auto auto ;
+    width: 60%;
+    height: 100px;
+    color: red;
+font-size: 80px;
+}
+.color1{
+    background-color: yellow;
+    box-shadow: black 5px 5px 10px;
+    font-family: "Comic Sans MS";
+    text-shadow:  1px 1px 5px blue;
+}
+.color2{
+    background-color: mediumseagreen;
+    box-shadow: black 5px 5px 10px;
+    font-family: Harrington;
+    text-shadow: 1px 1px 5px blueviolet;
+}

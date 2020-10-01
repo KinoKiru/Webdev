@@ -1,0 +1,1 @@
+die firefox foto deed het niet dus heb ik die vervangen voor een andere.

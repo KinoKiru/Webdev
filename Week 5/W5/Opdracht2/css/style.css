@@ -1,0 +1,70 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image: linear-gradient( to right  , grey  , orange );
+    width: 99%;
+    height: 99%;
+}
+#divflexleft{
+    width: 600px;
+    height: 600px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 40px;
+    text-align: right;
+}
+#divtop{
+    width: 600px;
+    height: 190px;
+
+
+}
+#divMiddleLeft{
+    width: 290px;
+    height: 190px;
+
+
+}
+#divMiddleRight{
+    width: 290px;
+    height: 190px;
+
+
+}
+#divbottom{
+    width: 600px;
+    height: 190px;
+
+
+}
+#container{
+    width: 99%;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#divright{
+    flex-direction: column;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    justify-content: space-between;
+}
+#divmiddle{
+display: flex;
+    justify-content: space-between;
+}
+
+.color{
+    background-color: #2abd93;
+}
+
+
+
+
+

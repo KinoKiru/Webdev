@@ -1,0 +1,11 @@
+body{
+
+}
+.foto{
+    height: 600px;
+    width: 800px;
+   filter: grayscale(100%);
+}
+.foto:hover{
+filter: revert;
+}

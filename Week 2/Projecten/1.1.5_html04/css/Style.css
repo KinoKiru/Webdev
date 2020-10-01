@@ -1,0 +1,56 @@
+body{
+border: 1px solid;
+width: 25%;
+font-size: 80px;
+}
+#vak1 {
+width: 150px;
+height: 150px;
+background-color: green;
+    margin: 10px 0px 0px 10px;
+border:solid 1px black;
+alignment: left;
+    box-shadow: 5px 5px 10px green;
+    color: red;
+    text-align: left;
+    text-shadow: red -1px -1px 5px;
+}
+
+#vak2 {width: 150px;
+    height:150px;
+    background-color: red;
+    border: solid 1px black;
+    margin: 20px 0px 20px 70px;
+    alignment: center;
+    box-shadow: -5px -5px 10px red ;
+    color:green;
+    text-align: center;
+    text-shadow: green -1px -1px 5px;
+}
+#vak3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 0px auto 30px auto;
+    alignment: right;
+    border: dotted 3px white;
+    box-shadow: 5px 5px 10px blue;
+    color: white;
+    text-align: right;
+    text-shadow: white -1px -1px 5px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

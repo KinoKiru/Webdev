@@ -1,0 +1,61 @@
+body{
+background-color: darkblue;
+}
+#div1{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(black,white);
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to  bottom right,black,white);
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to top, black,white, black);
+}
+#div4 {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(  black 0%,white 25%, darkgray 100% )
+}
+#divzw{
+    float: left;
+    margin: 10px 50px;
+}
+
+#div5{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(red,green);
+}
+#div6{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to  bottom right,red,green);
+}
+#div7{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to top, red,green,white,green, red);
+}
+#div8{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient( red 0%,white 25%, green 100% )
+}
+#divgr{
+    float: left;
+    margin: 10px 50px;
+}
+#div9{
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(circle, yellow,blueviolet);
+    float: left
+}
+.box{
+    margin: 10px;
+}

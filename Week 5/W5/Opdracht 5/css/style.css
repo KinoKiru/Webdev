@@ -1,0 +1,68 @@
+body {
+    background-color: darkgrey;
+    height: 100%;
+}
+
+#div1 {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#div2 {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    background: rgb(21, 255, 0) url("../../Opdracht3_4/img/logo.png") no-repeat top right;
+    animation-name: resolutie;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#div3 {
+    margin: 25px auto auto auto;
+    width: 80%;
+    height: 300px;
+    font-size: 40px;
+    background: rgba(255, 255, 102, 0.5) url("https://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-google-box-icon.png") no-repeat left;
+}
+
+#div4 {
+    margin: 70px auto auto auto;
+    width: 80%;
+    height: 200px;
+    color: red;
+    font-size: 80px;
+
+}
+#wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.color1 {
+    box-shadow: black 5px 5px 10px;
+    background-color: rgba(255, 255, 102, 0.5);
+    text-align: center;
+}
+
+.color2 {
+    box-shadow: black 5px 5px 10px;
+    background-color: rgb(21, 255, 0);
+    text-align: center;
+}
+@keyframes resolutie {
+    from{
+        transform: rotateX(0deg);
+    } to{
+              transform: rotateX(360deg);
+      }
+}
+
+
