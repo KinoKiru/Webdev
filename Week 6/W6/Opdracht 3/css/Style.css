@@ -1,0 +1,23 @@
+.td{
+    margin: auto;
+    position: relative;
+    width: 800px;
+    height: 200px;
+}
+.border{
+    border: black solid 2px;
+}
+.fotorechts{
+    width: 150px;
+    height: 100px;
+    float: right;
+}
+.niks{
+    width: 25px;
+    height: 10px;
+}
+.fotolinks{
+    float: left;
+    height: 100px;
+    width: 150px;
+}

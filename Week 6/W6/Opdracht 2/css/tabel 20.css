@@ -1,0 +1,10 @@
+table{
+    margin: auto;
+    height: 50px;
+    width: 500px;
+    background-color: skyblue;
+    border-color: green;
+}
+tr{
+    border-color: yellow;
+}

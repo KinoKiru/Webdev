@@ -1,0 +1,37 @@
+body{
+    background-color: lightskyblue;
+}
+table{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    border: 5px outset #0c0;
+}
+.tdborder{
+    border-left-style: groove;
+    border-left-color: #cf0;
+    border-right-style: solid;
+    border-right-color: #cf0;
+    border-bottom: 2px green inset;
+    border-top: 2px green inset;
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+}
+.tdborder2{
+    border-left-style: groove;
+    border-left-color: #cf0;
+    border-right-style: solid;
+    border-right-color: #cf0;
+    border-bottom: 2px green inset;
+    border-top: 2px green inset;
+    text-align: center;
+    font-weight: bold;
+}
+.niks{
+    border: 2px green inset;
+    text-align: center;
+    font-weight: bold;
+}
+

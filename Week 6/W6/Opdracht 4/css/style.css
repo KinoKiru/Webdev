@@ -1,0 +1,125 @@
+body {
+    background-color: azure;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 40px;
+    left: 0px;
+    right: 0px;
+}
+
+.foto {
+    float: left;
+    max-height: 50px;
+    max-width: 100px;
+}
+
+#div2 {
+    background-color: #5b5f66;
+    left: 0px;
+    height: 300px;
+    color: white;
+    bottom: 8px;
+    display: flex;
+    position: relative;
+
+}
+
+#div3 {
+    background-color: #aaabad;
+    height: 300px;
+    right: 0px;
+    color: white;
+    position: relative;
+    bottom: 8px;
+}
+
+#div1 {
+    background-color: #d7d8db;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 20px;
+}
+
+.niks {
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    position: absolute;
+}
+
+#grotewrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.grijs {
+    background-color: #5b5f66;
+    width: 225px;
+    height: 125px;
+}
+
+.waardeloos {
+    width: 225px;
+    height: 50px;
+}
+
+#grid {
+    display: grid;
+    grid-auto-rows: minmax(20px, auto);
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%;
+    width: 1000px;
+}
+
+#gridcolom {
+    display: flex;
+    justify-content: right;
+    align-content: end;
+    flex-direction: column;
+    z-index: -1;
+    padding: 3px;
+    color: red;
+}
+
+#display {
+    display: flex;
+    z-index: -1;
+}
+
+.kleingrijs {
+    background-color: #5b5f66;
+    width: 100px;
+    height: 75px;
+    margin-top: 25px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.sa {
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    color:black;
+    justify-content: space-evenly;
+    alignment: center;
+    align-self: center;
+
+}
+.da{
+    width: 100px;
+    height: 75px;
+    margin-top: auto;
+}
