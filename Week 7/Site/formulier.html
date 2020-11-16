@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulier</title>
+    <link rel="stylesheet" href="Css/formulier.css">
+</head>
+<body>
+<ul>
+    <li><a href="index.html" target="_self">home</a></li>
+    <li><a href="playlist.html" target="_blank">playlist</a></li>
+    <li><a href="formulier.html" target="_blank">Formulier</a></li>
+    <li><a href="contact.html">contact</a> </li>
+    <li><a href="Iframe.html" target="_blank">Iframe</a></li>
+</ul>
+<main>
+    <form name="formulier"
+            action="mailto: youriboulanger@gmail.com"
+    method="post">
+        <fieldset>
+<legend> Bestel Dure Kaarten</legend>
+            <input required type="text" id="naam" name="naam" placeholder="naam"><br>
+            <input required type="email" id="email" name="email" placeholder="E-mail"><br>
+            <input required type="text" id="mobiel" name="mobiel" placeholder="Mobiel"><br>
+            <input required type="text" id="woonplaats" placeholder="Woonplaats" name="woonplaats" list="Steden">
+            <datalist id="Steden">
+                <option value="Amsterdam"></option>
+                <option value="Utrecht"></option>
+                <option value="Antwerpen"></option>
+                <option value="Apeldoorn"></option>
+                <option value="Brussel"></option>
+                <option value="Rotterdam"></option>
+            </datalist><br>
+            <select required name="Concerten" id="concerten">
+                <option value="0">Kies concert</option>
+                <option value="Manu Chau">Manu Chau</option>
+                <option value="Evanescene">evanescene</option>
+                <option value="Sade">Sade</option>
+            </select> <br>
+            <label for="datum">Geboortedatum:</label> <br>
+            <input required type="date" name="datum" id="datum"> <br>
+            <label for="geslacht">geslacht: </label>
+            Man <input type="radio"  name="Geslacht" value="M">
+            Vrouw <input type="radio"  name="Geslacht" value="V">
+            <br>
+            <textarea cols="35" rows="4" placeholder="Tik je vraag of commentaar in..."></textarea><br>
+            <label for="abonnementen">Gratis abbonnementen:</label><br>
+            Nieuwsbrief:
+            <input type="checkbox" name="nieuwsbrief" id="nieuwsbrief" value="nieuwsbrief"><br>
+            Concertagenda:
+            <input type="checkbox" name="agenda" id="agenda" value="agenda"><br>
+            <label for="ranking">album ranking</label>
+            <input type="range" name="ranking" id="ranking" min="1" max="5">
+        </fieldset>
+        <input type="submit" id="verzend" name="verzend" value="Verzend">
+    </form>
+</main>
+</body>
+</html>

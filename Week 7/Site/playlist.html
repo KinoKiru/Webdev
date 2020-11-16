@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week 7</title>
+    <link rel="stylesheet" href="Css/playlist.css">
+</head>
+<body>
+<ul>
+    <li><a href="index.html" target="_self">home</a></li>
+    <li><a href="playlist.html" target="_blank">playlist</a></li>
+    <li><a href="formulier.html" target="_blank">Formulier</a></li>
+    <li><a href="contact.html">contact</a> </li>
+    <li><a href="Iframe.html" target="_blank">Iframe</a></li>
+</ul>
+<main>
+    <div id="albums">
+        <ul>
+            <li>
+                <a
+                        onclick="document.getElementById('album-1').style.display='block';
+                    document.getElementById('album-2').style.display='none';
+document.getElementById('album-3').style.display='none';">
+                    <img src="images/80rt2zjgjfx41.jpg" alt="michel">
+                </a>
+            </li>
+            <li>
+                <a
+                        onclick="document.getElementById('album-1').style.display='none';
+document.getElementById('album-2').style.display='block';
+document.getElementById('album-3').style.display='none';">
+                    <img src="images/220px-Queen_II_(album_cover).jpg" alt="queen">
+                </a>
+            </li>
+            <li>
+                <a
+                        onclick="document.getElementById('album-1').style.display='none';
+document.getElementById('album-2').style.display='none';
+document.getElementById('album-3').style.display='block';">
+                    <img src="images/e47b01f57dcae2838199b781b2899c29.jpg" alt="as">
+                </a>
+            </li>
+        </ul>
+    </div> <!--hier eindigd de album list-->
+    <div id="multimedia">
+        <div id="album-1" style='display: block'>
+            <video controls width="80%" preload poster="images/80rt2zjgjfx41.jpg">
+                <source src="Video/Ugandan%20Cinema%20-%20CGI%20at%20its%20finest.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="album-2" style='display: block'>
+            <video controls width="80%" preload poster="images/220px-Queen_II_(album_cover).jpg">
+                <source src="Video/HEYYEYAAEYAAAEYAEYAA.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="album-3" style='display: block'>
+            <video controls width="80%" preload poster="images/e47b01f57dcae2838199b781b2899c29.jpg">
+                <source src="Video/The%20INCOGNITO%20Gaming%20PC.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</main>
+</body>
+</html>
